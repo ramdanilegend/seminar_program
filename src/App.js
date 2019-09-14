@@ -1,12 +1,14 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./ui/Navbar";
-import Background from "./ui/Background";
+// import Content from "./ui/Content";
+import Content from "./ui/Content";
 function App() {
   return (
-    <div className="App">
+    <React.Fragment>
       <Navbar />
-    </div>
+      <Content />
+    </React.Fragment>
   );
 }
 
